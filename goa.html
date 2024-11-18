@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Goa</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+        header h1 {
+            color: #ff9800;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #252525;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ff9800;
+        }
+        main {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #ff9800;
+            border-bottom: 2px solid #ff9800;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .attractions img, .culture img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            color: #aaaaaa;
+            font-size: 14px;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Goa</h1>
+        <p>Your guide to India's beach paradise</p>
+    </header>
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#attractions">Attractions</a>
+        <a href="#culture">Culture</a>
+        <a href="#tips">Travel Tips</a>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Goa, located on the western coast of India, is renowned for its picturesque beaches, vibrant nightlife, and rich cultural heritage. Once a Portuguese colony, Goa seamlessly blends Indian traditions with European influences, making it a unique travel destination.</p>
+        </section>
+        <section id="attractions" class="attractions">
+            <h2>Popular Attractions</h2>
+            <ul>
+                <li><strong>Baga Beach:</strong> A hotspot for water sports, nightlife, and beach parties.</li>
+                <li><strong>Old Goa:</strong> Home to UNESCO World Heritage Sites like the Basilica of Bom Jesus and Se Cathedral.</li>
+                <li><strong>Dudhsagar Waterfalls:</strong> A stunning natural wonder surrounded by lush forests.</li>
+                <li><strong>Fort Aguada:</strong> A well-preserved 17th-century Portuguese fort offering panoramic views of the Arabian Sea.</li>
+            </ul>
+        </section>
+        <section id="culture" class="culture">
+            <h2>Culture and Cuisine</h2>
+            <p>Goa's culture is a blend of Indian and Portuguese traditions, reflected in its architecture, festivals, and food. The locals are warm and welcoming, and the state is known for its relaxed vibe.</p>
+            <ul>
+                <li><strong>Festivals:</strong> Goa Carnival, Shigmo, and Christmas celebrations.</li>
+                <li><strong>Cuisine:</strong> Famous for seafood, vindaloo, and bebinca (a layered dessert).</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="image-gallery">
+                <img src="goa1.jpeg" alt="">
+                <img src="goa2.jpg" alt="">
+                <img src="goa3.jpg" alt="">
+                <img src="goa4.jpg" alt="">
+            </div>
+        </section>
+        <section id="tips">
+            <h2>Travel Tips</h2>
+            <ul>
+                <li>Best time to visit: November to February for pleasant weather.</li>
+                <li>Carry sunscreen and beachwear for daytime activities.</li>
+                <li>Rent a scooter or car for easy transportation.</li>
+                <li>Respect local customs and dress modestly when visiting religious sites.</li>
+            </ul>
+        </section>
+        <section>
+            <a href="index2.html"><button class="book-now">book now</button></a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; EscapeAtlas- All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

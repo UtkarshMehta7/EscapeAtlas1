@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A comprehensive overview of the Golden Temple, its history, architecture, and cultural significance.">
+    <title>The Golden Temple - An Icon of Spirituality</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #d48806;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Golden Temple</h1>
+        <p>A Marvel of Spirituality and Architecture</p>
+    </header>
+    <nav>
+        <a href="#history">History</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#significance">Significance</a>
+        <a href="#visitor-info">Visitor Information</a>
+    </nav>
+    <section id="history">
+        <h2>History of the Golden Temple</h2>
+        <p>
+            The Golden Temple, also known as Sri Harmandir Sahib, is located in Amritsar, Punjab, India. It is the holiest gurdwara of Sikhism. 
+            The foundation stone was laid by the Sufi saint Sai Hazrat Mian Mir in 1581. It was completed in 1604 under the supervision of Guru Arjan Dev Ji, the fifth Sikh Guru.
+        </p>
+        <p>
+            The temple has seen several restorations over the centuries, most notably after its destruction by invaders in the 18th century. Maharaja Ranjit Singh covered the temple in gold in the early 19th century, giving it its iconic appearance.
+        </p>
+    </section>
+    <section id="architecture">
+        <h2>Architectural Features</h2>
+        <p>
+            The Golden Temple is a blend of Islamic and Indian architectural styles. The sanctum is surrounded by a man-made pool, known as the Amrit Sarovar, which is believed to have healing properties.
+        </p>
+        <ul>
+            <li><strong>Golden Dome:</strong> The upper part of the temple is covered in gold leaf, reflecting beautifully in the water.</li>
+            <li><strong>Darshani Deori:</strong> The entrance arch is exquisitely adorned with intricate inlay work.</li>
+            <li><strong>Marble Pathway:</strong> The causeway leading to the sanctum is made of white marble with detailed designs.</li>
+        </ul>
+    </section>
+    <section id="significance">
+        <h2>Cultural and Religious Significance</h2>
+        <p>
+            The Golden Temple is not only a place of worship for Sikhs but also a symbol of equality and humility. People from all faiths and walks of life are welcome here.
+        </p>
+        <p>
+            The Langar, or community kitchen, serves free meals to thousands of visitors every day, embodying the Sikh principle of seva (selfless service).
+        </p>
+    </section>
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="golden1.jpg" alt="">
+            <img src="golden2.jpg" alt="">
+            <img src="golden3.jpg" alt="">
+            <img src="golden4.jpg" alt="">
+        </div>
+    </section>
+    <section id="visitor-info">
+        <h2>Visitor Information</h2>
+        <ul>
+            <li><strong>Location:</strong> Amritsar, Punjab, India</li>
+            <li><strong>Timings:</strong> Open 24 hours, all days</li>
+            <li><strong>Best Time to Visit:</strong> November to March for pleasant weather</li>
+            <li><strong>Etiquette:</strong> Visitors must cover their heads, remove shoes, and maintain decorum.</li>
+        </ul>
+        <p>
+            Entry is free, but donations are welcome.
+        </p>
+    </section>
+    <section>
+        <a href="index2.html"><button class="book-now">book now</button></a>
+    </section>
+    <footer>
+        <p>&copy;EscapeAtlas- All rights reserved.</p>
+    </footer>
+</body>
+</html>

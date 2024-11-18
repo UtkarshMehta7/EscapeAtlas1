@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Kedarnath, a sacred temple town in the Himalayas, known for its history, spirituality, and natural beauty.">
+    <title>Kedarnath - The Sacred Temple Town</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+        }
+        header {
+            background-color: #5a5a5a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #ff5722;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333333;
+            color: #f5f5f5;
+        }
+        .highlight {
+            color: #ffd54f;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kedarnath</h1>
+        <p>The Sacred Temple in the Himalayas</p>
+    </header>
+    <nav>
+        <a href="#history">History</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#significance">Significance</a>
+        <a href="#visitor-info">Visitor Info</a>
+    </nav>
+    <section id="history">
+        <h2>History of Kedarnath</h2>
+        <p>
+            Kedarnath is one of the most revered pilgrimage sites in India, located in the Garhwal Himalayan range of Uttarakhand. The Kedarnath Temple, dedicated to Lord Shiva, is believed to have been built by the Pandavas and later renovated by Adi Shankaracharya in the 8th century.
+        </p>
+        <p>
+            The temple stands as a testimony to India's rich mythological history, with mentions in the Mahabharata. It is part of the <span class="highlight">Panch Kedar</span>, a group of five sacred Shiva temples in the region.
+        </p>
+    </section>
+    <section id="architecture">
+        <h2>Architectural Marvel</h2>
+        <p>
+            The Kedarnath Temple is constructed using large, gray stone slabs in a unique mountain architectural style. Despite its remote and harsh location, the temple has withstood the test of time.
+        </p>
+        <ul>
+            <li><strong>Main Sanctum:</strong> Houses a conical-shaped Shiva lingam, representing Lord Shiva in his "Sadashiva" form.</li>
+            <li><strong>Intricate Carvings:</strong> The walls and pillars are adorned with carvings depicting Hindu deities and legends.</li>
+            <li><strong>Location:</strong> Situated at an altitude of 3,583 meters (11,755 ft), surrounded by snow-capped peaks.</li>
+        </ul>
+    </section>
+    <section id="significance">
+        <h2>Religious and Spiritual Significance</h2>
+        <p>
+            Kedarnath is one of the twelve <span class="highlight">Jyotirlingas</span> and is considered the most remote and important of them all. Pilgrims believe that a visit to Kedarnath brings salvation.
+        </p>
+        <p>
+            It is also part of the <span class="highlight">Char Dham Yatra</span>, which includes Badrinath, Gangotri, and Yamunotri. Devotees undertake arduous treks to reach the temple, reflecting their deep faith and devotion.
+        </p>
+    </section>
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="kedarnath6.jpg" alt="">
+            <img src="kedarnath2.jpg" alt="">
+            <img src="kedarnath3.jpg" alt="">
+            <img src="kedarnath4.jpg" alt="">
+        </div>
+    </section>
+    <section id="visitor-info">
+        <h2>Visitor Information</h2>
+        <ul>
+            <li><strong>Location:</strong> Kedarnath, Uttarakhand, India</li>
+            <li><strong>Best Time to Visit:</strong> May to June and September to October (temple is closed during winter due to snow).</li>
+            <li><strong>Access:</strong> The trek to Kedarnath starts from Gaurikund, which is approximately 16 km away.</li>
+            <li><strong>Travel Tips:</strong> Carry warm clothing, proper trekking gear, and sufficient water and snacks. Acclimatize yourself to the altitude.</li>
+        </ul>
+        <p>
+            Helicopter services are also available for those unable to trek.
+        </p>
+    </section>
+    <section>
+        <a href="index2.html"><button class="book-now">book now</button></a>
+    </section>
+    <footer>
+    <p>&copy; EscapeAtlas- All rights reserved.</p></footer>
+</body>
+</html>

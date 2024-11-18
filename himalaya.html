@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Majestic Himalayas</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #00FF7F;
+        }
+        h2 {
+            color: #00FF7F;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #212121;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .facts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .fact {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+        }
+        .fact h3 {
+            color: #00FF7F;
+        }
+        footer {
+            background-color: #1F1F1F;
+            padding: 10px;
+            text-align: center;
+            color: #B0B0B0;
+        }
+        footer a {
+            color: #00FF7F;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Majestic Himalayas</h1>
+        <p>The Roof of the World</p>
+    </header>
+
+    <section>
+        <h2>About the Himalayas</h2>
+        <p>The Himalayas, meaning "Abode of Snow" in Sanskrit, is the highest mountain range in the world. Stretching across five countries—India, Nepal, Bhutan, China, and Pakistan—it is home to some of the tallest peaks, including Mount Everest. The range spans over 2,400 kilometers and has shaped the culture, religion, and environment of the regions it touches.</p>
+    </section>
+
+    <section>
+        <h2>Formation and Geography</h2>
+        <p>The Himalayas were formed around 50 million years ago due to the collision of the Indian and Eurasian tectonic plates. The range consists of three parallel zones:</p>
+        <ul>
+            <li><strong>Greater Himalayas:</strong> Includes the highest peaks like Everest and Kanchenjunga.</li>
+            <li><strong>Lesser Himalayas:</strong> Known for its hill stations and dense forests.</li>
+            <li><strong>Outer Himalayas (Shivaliks):</strong> The foothills of the range, rich in biodiversity.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Significance</h2>
+        <p>The Himalayas play a vital role in shaping the climate and ecology of South Asia:</p>
+        <ul>
+            <li><strong>Water Source:</strong> The range feeds some of the major rivers, including the Ganges, Brahmaputra, and Indus.</li>
+            <li><strong>Climate Regulation:</strong> Acts as a barrier, preventing cold winds from Central Asia and shaping monsoons.</li>
+            <li><strong>Biodiversity Hotspot:</strong> Home to rare species like the snow leopard, red panda, and Himalayan monal.</li>
+            <li><strong>Cultural Influence:</strong> Sacred to many religions, with sites like Mount Kailash and Amarnath.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Interesting Facts</h2>
+        <div class="facts">
+            <div class="fact">
+                <h3>Tallest Mountain</h3>
+                <p>Mount Everest, at 8,848.86 meters, is the tallest peak in the world, located in the Greater Himalayas.</p>
+            </div>
+            <div class="fact">
+                <h3>Largest Glaciers</h3>
+                <p>The Siachen Glacier, one of the largest in the world, is located in the Karakoram range, part of the Himalayan system.</p>
+            </div>
+            <div class="fact">
+                <h3>Spiritual Importance</h3>
+                <p>The Himalayas are considered sacred in Hinduism and Buddhism, with pilgrimage sites like Kedarnath and Lhasa.</p>
+            </div>
+            <div class="fact">
+                <h3>UNESCO Sites</h3>
+                <p>The Himalayan range includes UNESCO World Heritage Sites like the Nanda Devi and Valley of Flowers National Parks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Activities and Adventure</h2>
+        <p>The Himalayas offer unparalleled opportunities for adventure and exploration:</p>
+        <ul>
+            <li><strong>Trekking:</strong> Famous trails include the Everest Base Camp Trek and the Annapurna Circuit.</li>
+            <li><strong>Mountaineering:</strong> Climbers from around the world attempt peaks like Everest and K2.</li>
+            <li><strong>Wildlife Safaris:</strong> Explore national parks like Jim Corbett and Kanchenjunga Biosphere Reserve.</li>
+            <li><strong>Spiritual Retreats:</strong> Visit monasteries in Ladakh or meditate in the serene surroundings of Rishikesh.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="himalaya1.webp" alt="">
+            <img src="himalaya2.jpg" alt="">
+            <img src="himalaya3.jpg" alt="">
+            <img src="himalaya4.jpg" alt="">
+        </div>
+    </section>
+    <section>
+        <a href="index2.html"><button class="book-now">book now</button></a>
+    </section>
+    <footer>
+        <p> &copy; EscapeAtlas- All Rights Reserved.<br>
+        Learn more at <a href="https://www.himalayantrust.org/" target="_blank">The Himalayan Trust</a>.</p>
+    </footer>
+</body>
+</html>

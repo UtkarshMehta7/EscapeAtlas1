@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladakh - Land of High Passes</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        h2 {
+            color: #ff8c00;
+            font-size: 2em;
+            margin-top: 40px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .intro {
+            font-size: 1.3em;
+            font-style: italic;
+            color: #ccc;
+        }
+        .highlight {
+            color: #ff8c00;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .quote {
+            background-color: #444;
+            border-left: 4px solid #ff8c00;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ladakh - Land of High Passes</h1>
+        <p>Explore the remote beauty of one of the most breathtaking regions in India.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Introduction to Ladakh</h2>
+            <p class="intro">Ladakh, located in the northernmost part of India, is known for its rugged terrain, stunning landscapes, and rich cultural heritage.</p>
+            <p>Situated at an altitude of over 3,000 meters, Ladakh is often referred to as the <span class="highlight">"Land of High Passes"</span> due to its numerous mountain passes that connect the region to other parts of India and beyond.</p>
+            <p>Surrounded by the majestic Himalayan and Karakoram mountain ranges, Ladakh boasts some of the highest motorable roads in the world, attracting adventure seekers from across the globe.</p>
+        </section>
+
+        <section>
+            <h2>Culture and Traditions</h2>
+            <p>Ladakh has a unique blend of Tibetan Buddhist culture, influenced by its proximity to Tibet. The region is home to several monasteries, such as <span class="highlight">Hemis Monastery</span>, <span class="highlight">Thiksey Monastery</span>, and <span class="highlight">Diskit Monastery</span>, each with its own rich history and religious significance.</p>
+            <p>The people of Ladakh primarily speak Ladakhi, a Tibetan language, and follow the Buddhist faith. The region is also known for its festivals, especially <span class="highlight">Hemis Festival</span>, which celebrates the birth of Guru Padmasambhava.</p>
+        </section>
+
+        <section>
+            <h2>Top Tourist Attractions</h2>
+            <ul>
+                <li><span class="highlight">Pangong Lake:</span> A mesmerizing high-altitude lake known for its changing hues.</li>
+                <li><span class="highlight">Leh Palace:</span> A former royal residence offering panoramic views of Leh town and the surrounding mountains.</li>
+                <li><span class="highlight">Nubra Valley:</span> A valley known for its picturesque landscapes, sand dunes, and Bactrian camels.</li>
+                <li><span class="highlight">Magnetic Hill:</span> A gravity-defying hill where vehicles appear to move uphill due to an optical illusion.</li>
+                <li><span class="highlight">Tso Moriri Lake:</span> A remote and serene lake, less crowded but equally stunning as Pangong Lake.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Adventure Activities</h2>
+            <p>Ladakh is a haven for adventure enthusiasts. The rugged terrain offers opportunities for trekking, mountain biking, and river rafting. Some popular trekking routes include the <span class="highlight">Markha Valley Trek</span> and the <span class="highlight">Stok Kangri Trek</span>.</p>
+            <p>For those looking for a more thrilling experience, <span class="highlight">Biking in Ladakh</span> on the high-altitude roads is an unforgettable adventure.</p>
+        </section>
+
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="image-gallery">
+                <img src="ladakh1.webp" alt="Pangong Lake">
+                <img src="ladakh2.webp" alt="Magnetic Hill">
+                <img src="ladakh3.jpg" alt="Leh Palace">
+                <img src="ladakh4.jpg" alt="Nubra Valley">
+            </div>
+        </section>
+        <section>
+            <a href="index2.html"><button class="book-now">book now</button></a>
+        </section>
+        <section>
+            <div class="quote">
+                <p><em>"Ladakh is a place where time stands still, and the mountains whisper ancient tales."</em> – EscapeAtlas</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

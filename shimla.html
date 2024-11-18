@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shimla - The Queen of Hills</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #FFD700;
+        }
+        h2 {
+            color: #FFD700;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #212121;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            line-height: 1.6;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .fact {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+        }
+        footer {
+            background-color: #1F1F1F;
+            padding: 10px;
+            text-align: center;
+            color: #B0B0B0;
+        }
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shimla - The Queen of Hills</h1>
+        <p>Discover the beauty of Shimla, the Summer Capital of India</p>
+    </header>
+
+    <section>
+        <h2>About Shimla</h2>
+        <p>Shimla is the capital of Himachal Pradesh, India, and one of the most popular hill stations in the country. Nestled in the foothills of the Himalayan range, Shimla is known for its colonial architecture, lush greenery, pleasant weather, and scenic views. It attracts tourists throughout the year, offering a refreshing escape from the heat of the plains.</p>
+    </section>
+
+    <section>
+        <h2>History of Shimla</h2>
+        <p>Shimla became the summer capital of British India in 1864, and it remains one of the most significant hill stations in the country. The town was developed with the help of British planners who created a colonial architecture style that still defines the town's skyline today. Shimla served as a popular retreat for British officials, offering a cooler climate compared to the rest of the country.</p>
+    </section>
+
+    <section>
+        <h2>Attractions in Shimla</h2>
+        <ul>
+            <li><strong>Jakhoo Temple:</strong> An ancient temple dedicated to Lord Hanuman, situated at the highest point in Shimla.</li>
+            <li><strong>The Ridge:</strong> A large open space in the center of the town offering panoramic views of the surrounding mountains.</li>
+            <li><strong>Christ Church:</strong> A neo-gothic style church located on The Ridge, famous for its stained glass windows.</li>
+            <li><strong>Kufri:</strong> A hill station located just outside Shimla, known for adventure sports and the Himalayan Nature Park.</li>
+            <li><strong>Shimla Mall Road:</strong> The main shopping and eating street lined with colonial-era buildings and shops.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="Shimlamallroad.jpg" alt="Shimla Mall Road">
+            <img src="Jakhu-temple.jpg.webp" alt="Jakhoo Temple">
+            <img src="Kufri-hill-station.jpg" alt="Kufri Hill Station">
+            <img src="Christ-church.webp" alt="Christ Church, Shimla">
+        </div>
+    </section>
+
+    <section>
+        <h2>Interesting Facts about Shimla</h2>
+        <div class="fact">
+            <h3>Summer Capital of India</h3>
+            <p>Shimla served as the summer capital of British India, and the legacy of this period is still visible in the town's architecture and planning.</p>
+        </div>
+        <div class="fact">
+            <h3>Railway Heritage</h3>
+            <p>The Shimla-Kalka Railway is a UNESCO World Heritage site and one of the most scenic railway routes in India, offering a picturesque ride through the mountains.</p>
+        </div>
+        <div class="fact">
+            <h3>Famous for Apples</h3>
+            <p>Shimla is known for its apple orchards, producing some of the best apples in India, particularly during the monsoon season.</p>
+        </div>
+    </section>
+    <section>
+        <a href="index2.html"><button class="book-now">book now</button></a>
+    </section>
+    <footer>
+        <p>&copy; EspcapeAtlas- All Rights Reserved. <br>
+        Learn more about Shimla at <a href="https://himachaltourism.gov.in" target="_blank">Himachal Pradesh Tourism</a>.</p>
+    </footer>
+</body>
+</html>

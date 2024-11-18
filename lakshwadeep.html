@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discover Lakshadweep</title>
+    <link rel="icon" href="Logo.webp" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1F1F1F;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #00BFFF;
+        }
+        h2 {
+            color: #00BFFF;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #212121;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            line-height: 1.6;
+        }
+        .facts {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .fact {
+            background-color: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+        }
+        .fact h3 {
+            color: #00BFFF;
+        }
+        footer {
+            background-color: #1F1F1F;
+            padding: 10px;
+            text-align: center;
+            color: #B0B0B0;
+        }
+        footer a {
+            color: #00BFFF;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+        }
+        .book-now{
+            position: relative;
+            padding: 10px 20px;
+            outline: none;
+            border: none;
+            background: #000;
+            text-transform: capitalize;
+            color: #fff;
+            border-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .book-now::before{
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -30px;
+            width: 20px;
+            height: 200%;
+            background: #fff;
+            opacity: 0.2;
+            transform: rotate(5deg);
+            transition: .5s;
+        }
+        
+        .book-now:hover::before{
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Lakshadweep</h1>
+        <p>The Emerald Islands of India</p>
+    </header>
+
+    <section>
+        <h2>About Lakshadweep</h2>
+        <p>Lakshadweep, meaning "a hundred thousand islands" in Sanskrit, is a picturesque Union Territory of India. Situated in the Arabian Sea, it consists of 36 small islands, out of which 10 are inhabited. Known for its stunning coral reefs, turquoise lagoons, and vibrant marine life, Lakshadweep is a paradise for nature lovers and adventure seekers.</p>
+    </section>
+
+    <section>
+        <h2>History and Culture</h2>
+        <p>The history of Lakshadweep dates back to ancient times, with mentions in literary works like the Periplus of the Erythraean Sea. Over the centuries, it has been influenced by Arab traders, Portuguese explorers, and Indian rulers. The culture here is deeply rooted in Islam, brought by Arab traders. The people of Lakshadweep are known for their warmth and hospitality, with festivals like Eid celebrated with great enthusiasm.</p>
+    </section>
+
+    <section>
+        <h2>Geography and Climate</h2>
+        <p>Spread over an area of approximately 32 square kilometers, Lakshadweep is the smallest Union Territory of India. The islands are flat and characterized by stunning atolls, lagoons, and coral reefs. The tropical climate ensures warm temperatures throughout the year, making it an ideal beach destination.</p>
+    </section>
+
+    <section>
+        <h2>Interesting Facts</h2>
+        <div class="facts">
+            <div class="fact">
+                <h3>Location</h3>
+                <p>Lakshadweep is located around 200-400 kilometers off the southwestern coast of India in the Arabian Sea.</p>
+            </div>
+            <div class="fact">
+                <h3>Official Language</h3>
+                <p>The official languages are Malayalam and Mahl, with English widely used for administrative purposes.</p>
+            </div>
+            <div class="fact">
+                <h3>Coral Reefs</h3>
+                <p>Lakshadweep is home to 78% of India's coral reef area, offering unmatched opportunities for snorkeling and diving.</p>
+            </div>
+            <div class="fact">
+                <h3>Fishing Industry</h3>
+                <p>Fishing, especially tuna fishing, is the main economic activity in Lakshadweep.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="lakshadweep1.jpg" alt="">
+            <img src="lakshadweep2.jpg" alt="">
+            <img src="lakshadweep3.jpg" alt="">
+            <img src="lakshadweep4.jpg" alt="">
+        </div>
+    </section>
+
+    <section>
+        <h2>Tourist Attractions</h2>
+        <p>Lakshadweep offers a host of attractions for visitors:</p>
+        <ul>
+            <li><strong>Agatti Island:</strong> Known for its pristine beaches and water sports.</li>
+            <li><strong>Bangaram Island:</strong> A popular destination for scuba diving and relaxation.</li>
+            <li><strong>Kalpeni Island:</strong> Famous for its unique coral debris beaches.</li>
+            <li><strong>Minicoy Island:</strong> Known for its lighthouse and traditional dance forms.</li>
+        </ul>
+    </section>
+    <section>
+        <a href="index2.html"><button class="book-now">book now</button></a>
+    </section>
+    <footer>
+        <p>&copy; EscapeAtlas- All Rights Reserved.<br>
+        Learn more at the official <a href="https://lakshadweep.gov.in/" target="_blank">Lakshadweep Government Website</a>.</p>
+    </footer>
+</body>
+</html>

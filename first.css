@@ -1,0 +1,84 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Dark background for the body with a gradient */
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0;
+    overflow: hidden;
+    background-image: url(background2.jpg);
+    background-size: cover;
+
+}
+
+/* Container styling */
+.c {
+    text-align: center;
+    padding: 20px;
+    background: rgba(26, 26, 46, 0.8);
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.7);
+    width: 90%;
+    max-width: 600px;
+    transition: transform 0.3s;
+}
+
+/* Animated hover effect for the container */
+.c:hover {
+    transform: scale(1.02);
+}
+
+/* Heading styling */
+.a h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Glow effect animation */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #6200ea, 0 0 20px #6200ea, 0 0 30px #3700b3, 0 0 40px #6200ea;
+    }
+    to {
+        text-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc, 0 0 50px #bb86fc;
+    }
+}
+
+/* Interactive button styling */
+.b .begin {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: linear-gradient(45deg, #6200ea, #3700b3);
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(98, 0, 234, 0.5);
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect for the button */
+.b .begin:hover {
+    background: linear-gradient(45deg, #bb86fc, #3700b3);
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(98, 0, 234, 0.7);
+}
+
+/* Inner heading in the link */
+.b h2 {
+    margin: 0;
+}
